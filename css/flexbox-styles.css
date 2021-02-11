@@ -1,0 +1,106 @@
+
+/****** Body Styles *****/
+
+
+header {
+    background-color: none;
+    color: teal;
+}
+
+.header-title {
+    display: flex;
+    justify-content: center;
+    margin: .1em;
+    color: teal;
+
+}
+
+ul {
+    list-style: none;
+    padding: .03em;
+    margin-top: auto;
+}
+
+li {
+    background-color: teal;
+    border-radius: 5px 30px;
+    border: none;
+    width: 100%%;
+    padding: .25em .25em;
+    margin: .25em;
+}
+
+a {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    background-color: none;
+    align-content: auto;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin: auto;
+    
+}
+
+p {
+    display: flex;
+    color: gray;
+    flex-flow: row, wrap;
+    padding: 1em, 2em;
+}
+
+/* h3 {
+    padding-left: .25em;
+} */
+
+/* img {
+    padding: 1em;
+    margin: auto;
+    border: 5px dashed pink;
+    display: flex;
+} */
+
+/* *** Flexbox *** */
+
+
+
+/* .forflex {
+    border: 2px solid firebrick;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+} */
+
+
+
+/* .smarter {
+    margin: auto;
+    flex: 2;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+}
+
+
+
+/* .togrow {
+    flex-grow: 5;
+} */
