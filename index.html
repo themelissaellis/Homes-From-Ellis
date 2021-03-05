@@ -3,41 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
     <link href="css/flexbox-styles.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
     <title>Homes From Ellis</title>
 </head>
 
 <body>
-    <container>
+    <wrapper class="content">
         <header class="main-header">
-            <h1 class="header-title">HOMES FROM ELLIS</h1>
-            <!-- <img class="ellis-logo" src="images/logotemp01.png" alt="Homes From Ellis Logo"> -->
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">For Rent</a></li>
-                    <li><a href="#">For Sale</a></li>
-                    <li><a href="#">Tenant Services</a></li>
-                </ul>
-            </nav>
+            <svg class="ham-lines" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                    <g>
+                        <line class="line1" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="30" x2="80" y2="30"/>
+                    </g>
+                    <g>
+                        <line class="line2" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="49" x2="80" y2="49"/>
+                    </g>
+                    <g>
+                        <line class="line3" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="68" x2="80" y2="68"/>
+                    </g>
+            </svg>
+            <img class="logo" src="SVG/HFE_Logo-04.svg" class="header-image" alt="Homes From Ellis Mobile Logo">
+            
+            
             
         </header>
     
-<container class="main-content">
-    <div class="page-content">
-        <h1>I'm a header!</h1>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-        </p>
-    </div>
+    <container class="main-content">
+        <div class="primary-content">
+            <h1>I'm a header!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Equipment Options: Small pillow or small exercise ball, soup can, water bottles, or light weight, bundled socks or small toy ball, mat, towel, & some water.
+            </p>
+        </div>
     
-    <main></main>
+   
     <!-- <script src="js/script.js"></script> -->
-</container>    
-
-</container>
+    </container>    
+    <container class="secondary-content">
+        <h2>Test Header</h2>
+    </container>
+</wrapper>
 
     <footer class="site-footer">
-        I'm the Sticky Footer.
-      </footer>
+        <div class="footer-style">
+            <ul class="inner-footer">
+                <li>&copy;2021 Homes From Ellis</li>
+                <li><a>Contact</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>

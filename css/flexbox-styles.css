@@ -1,106 +1,69 @@
 
-/****** Body Styles *****/
+/****** FLEXBOX *****/
 
-
-header {
-    background-color: none;
-    color: teal;
-}
-
-.header-title {
+body {
     display: flex;
-    justify-content: center;
-    margin: .1em;
-    color: teal;
-
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-ul {
-    list-style: none;
-    padding: .03em;
-    margin-top: auto;
+
+.content {
+    flex-grow: 1;
 }
 
-li {
-    background-color: teal;
-    border-radius: 5px 30px;
-    border: none;
-    width: 100%%;
-    padding: .25em .25em;
-    margin: .25em;
+/****** FLEX ITEMS ******/
+
+.logo,
+a,
+h1,
+p,
+.ham-lines {
+    display: inline-flex;
 }
+
+.main-header {
+    justify-content: space-around;
+}
+
+
 
 a {
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
     text-decoration: none;
 }
 
-.main-content {
-    display: flex;
-    background-color: none;
-    align-content: auto;
-}
-
 h1 {
-    display: flex;
-    justify-content: center;
-    color: gray;
-    margin: auto;
-    
+    justify-content: center;    
 }
 
 p {
-    display: flex;
-    color: gray;
-    flex-flow: row, wrap;
-    padding: 1em, 2em;
+    flex-flow: column, wrap;
 }
 
-/* h3 {
-    padding-left: .25em;
-} */
-
-/* img {
-    padding: 1em;
-    margin: auto;
-    border: 5px dashed pink;
-    display: flex;
-} */
-
-/* *** Flexbox *** */
+/****** FLEXBOX FOOTER  ******/
 
 
-
-/* .forflex {
-    border: 2px solid firebrick;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-} */
-
-
-
-/* .smarter {
-    margin: auto;
-    flex: 2;
-    flex-wrap: wrap;
-    flex-direction: column;
-} */
-
+/* FOR STICKY FOOTER */
 .site-footer {
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
+    flex-shrink: 0;
+    width: 100%;
 }
 
+/* FOOTER COPYRIGHT & NAV */
+
+ul.inner-footer {
+    display: inline-flex;
+   justify-content: space-between;
+    padding: 2px;
+    margin: 2px;
+  }
+
+  li.inner-footer {
+  
+  }
+  
 
 
-/* .togrow {
-    flex-grow: 5;
-} */
