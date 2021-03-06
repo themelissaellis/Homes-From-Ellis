@@ -1,14 +1,23 @@
 /******* BASE STYLES *******/
 
+/******** HEADER BASE STYLES ********/
 
-p {
-  color: gray;
-  padding: 1em, 2em;
+h1,
+h2 { 
+    color: #6d6e70;
+    padding: 5px; 
+    margin: 5px; 
 }
 
-/******** HEADER BASE STYLES ********/
-.main-header {
-  background-color: rgba(211, 211, 211, .75);
+.header-text {
+  font-size: 1.5em;
+  color: white;
+  padding: 5px;
+}
+
+.main-header,
+.footer-style {
+  background-color: rgba(30, 195, 195, .5);
 }
 
 .ham-lines {
@@ -16,14 +25,16 @@ p {
 }
 
 .logo {
-  width: 4em;
+  width: 4.5em;
 }
 
 /******** BODY BASE STYLES ********/
 
-h1, h2 {
-  color: #6d6e70;
-  margin: auto;
+p {
+  color: gray;
+  padding: 1em, 2em;
+  margin: 10px;
+  flex-wrap: wrap;
 }
 
 /******** FOOTER BASE STYLES ********/
@@ -32,17 +43,18 @@ ul {
     list-style: none;
 }
 
-
 .footer-style {
   padding-top: 20px;
-  padding-bottom: 30px;
-  background-color: teal;
+  padding-bottom: 20px;
   list-style: none;
   color: white;
   width: 100%;
 }
 
-
+ul.inner-footer {
+  padding: 2px;
+  margin: 2px;
+}
 
 /******** MEDIA QUERIES ********/
 

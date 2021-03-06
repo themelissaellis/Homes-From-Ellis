@@ -5,8 +5,13 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0;
 }
 
+header, {
+    height: 100px;
+    display: flex;
+  }
 
 .content {
     flex-grow: 1;
@@ -24,8 +29,8 @@ p,
 
 .main-header {
     justify-content: space-around;
+    align-items: center;
 }
-
 
 
 a {
@@ -35,9 +40,6 @@ a {
     text-decoration: none;
 }
 
-h1 {
-    justify-content: center;    
-}
 
 p {
     flex-flow: column, wrap;
@@ -54,16 +56,15 @@ p {
 
 /* FOOTER COPYRIGHT & NAV */
 
+.footer-style {
+    text-align-last: center;
+}
+
 ul.inner-footer {
     display: inline-flex;
-   justify-content: space-between;
-    padding: 2px;
-    margin: 2px;
-  }
+    justify-content: space-between;
+}
 
-  li.inner-footer {
-  
-  }
-  
+
 
 
