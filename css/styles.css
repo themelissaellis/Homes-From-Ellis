@@ -15,10 +15,6 @@ h2 {
   padding: 5px;
 }
 
-.main-header,
-.footer-style {
-  background-color: rgba(30, 195, 195, .5);
-}
 
 .ham-lines {
   width: 75px;
@@ -28,13 +24,39 @@ h2 {
   width: 4.5em;
 }
 
+.main-header,
+.footer-style {
+  background-color: rgba(30, 195, 195, .5);
+}
+
+
 /******** BODY BASE STYLES ********/
+
+/* NAV MENU STYLE */
+
+.nav {
+  padding: 5px;
+  margin-top: 1.5em;
+}
+
+.nav li a {
+  display: block;
+  color: rgb(30, 195, 195);
+  font-size: 1.125em;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 0;
+}
+
+/* CONTENT STYLE */
 
 p {
   color: gray;
   padding: 1em, 2em;
   margin: 10px;
   flex-wrap: wrap;
+  line-height: 1.3;
 }
 
 /******** FOOTER BASE STYLES ********/
@@ -55,6 +77,8 @@ ul.inner-footer {
   padding: 2px;
   margin: 2px;
 }
+
+
 
 /******** MEDIA QUERIES ********/
 
