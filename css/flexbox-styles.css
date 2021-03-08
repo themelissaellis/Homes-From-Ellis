@@ -9,9 +9,12 @@ body {
     margin: 0;
 }
 
-header, {
-    height: 100px;
+header.main-header {
+    height: 5em;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
   }
 
 .content {
@@ -20,18 +23,8 @@ header, {
 
 /****** FLEX ITEMS ******/
 
-
-.logo,
-a,
-h1,
-p,
-.ham-lines {
+p {
     display: inline-flex;
-}
-
-.main-header {
-    justify-content: space-around;
-    align-items: center;
 }
 
 .inner-footer.a {
