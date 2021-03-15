@@ -21,11 +21,13 @@ header.main-header {
     flex-grow: 1;
 }
 
+
+/* Images in gallery */
+
+
+
 /****** FLEX ITEMS ******/
 
-p {
-    display: inline-flex;
-}
 
 .inner-footer.a {
     color: white;
@@ -38,10 +40,6 @@ p {
     margin-left: 5px;
 }
 
-
-p {
-    flex-flow: column, wrap;
-}
 
 /****** FLEXBOX FOOTER  ******/
 
@@ -62,3 +60,10 @@ ul.inner-footer {
     display: inline-flex;
     justify-content: space-between;
 }
+
+
+/******** MEDIA QUERIES ********/
+
+/* @media (min-width: 769px) {
+
+} */

@@ -6,39 +6,17 @@
     }
   }
 
-  @keyframes turn {
-    0% {
-      transform: rotate(0) scale(0);
-      opacity: 0;
-    }
-    60% {
-      transform: rotate(375deg) scale(1.1);
-    }
-    80% {
-      transform: rotate(355deg) scale(0.9);
-    }
-    100% {
-      transform: rotate(360deg) scale(1);
-    }
-  }
-
 
 /* SVG  STYLES*/
 
-.ham-lines {
-  stroke-dasharray: 75;
-  stroke-dashoffset: 75;
-  animation: draw 1.2s linear forwards ;
+.menu-btnBurger  {
+  stroke-dasharray: 80;
+  stroke-dashoffset: 80;
+  animation: draw 1.2s linear forwards;
 }
 
-.line1 {
-  animation: turn .6s linear backwards;
-}
 
-.line2 {
-  animation: turn .8s linear backwards;
-}
 
-.line3 {
-  animation: turn 1s linear backwards;
-}
+
+
+
