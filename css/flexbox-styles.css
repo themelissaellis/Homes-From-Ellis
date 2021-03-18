@@ -1,8 +1,13 @@
 
 /****** FLEXBOX *****/
 
-body {
+body,
+header.main-header,
+.hull-container {
     display: flex;
+}
+
+body {
     flex-direction: column;
     min-height: 100vh;
     width: 100%;
@@ -11,7 +16,6 @@ body {
 
 header.main-header {
     height: 5em;
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -24,7 +28,17 @@ header.main-header {
 
 /* Images in gallery */
 
+.hull-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
 
+img
+{ 
+    display: flex;
+}
 
 /****** FLEX ITEMS ******/
 
