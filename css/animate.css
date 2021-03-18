@@ -7,7 +7,7 @@
   }
 
 
-/* SVG  STYLES*/
+/* SVG ANIMATE*/
 
 .menu-btnBurger  {
   stroke-dasharray: 80;
@@ -15,8 +15,44 @@
   animation: draw 1.2s linear forwards;
 }
 
+.skyline {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 1.2s linear forwards;
+}
 
+.skyline:nth-of-type(2) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 1.4s linear forwards;
+}
 
+.skyline:nth-of-type(3) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 1.6s linear forwards;
+}
 
+.skyline:nth-of-type(4) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 1.8s linear forwards;
+}
 
+.skyline:nth-of-type(5) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 2s linear forwards;
+}
 
+.skyline:nth-of-type(6) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 2.2s linear forwards;
+}
+
+.skyline:nth-of-type(7) {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: draw 2.4s linear forwards;
+}
