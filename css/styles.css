@@ -44,6 +44,10 @@ a:hover {
   padding: 10px 15px;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
     max-width: 48%;
     margin: 1px 1px 0;

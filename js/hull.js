@@ -14,7 +14,7 @@ const hull = [
     },
     {
         description: 'Roomy living space with decorative fire pit',
-        photo: '../img/Hull-4401.jpg',
+        photo: '../img/hull_exports/Hull-4401.jpg',
     },
     {
         description: 'Breakfast bar',
@@ -42,7 +42,7 @@ const hull = [
     },
     {
         description: 'Bathroom Vanity',
-        photo: '../img/hull_exports/4360.jpg',
+        photo: '../img/hull_exports/Hull-4360.jpg',
     },
     {
         description: 'Kitchen and living space view from bedroom',

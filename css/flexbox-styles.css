@@ -40,6 +40,14 @@ img
     display: flex;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 8px;
+}
+
 /****** FLEX ITEMS ******/
 
 
