@@ -3,7 +3,16 @@
 * {
   margin: 0;
   padding: 0;
-  
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: 'Nunito', sans-serif;
 }
 
 h1 {
@@ -44,12 +53,15 @@ a:hover {
   padding: 10px 15px;
 }
 
-a {
+a { 
+  color: teal;
+  font-style: normal;
   text-decoration: none;
+  cursor: pointer;
 }
 
 img {
-    max-width: 48%;
+    max-width: 98%;
     margin: 1px 1px 0;
     border-radius: 5px;
     /* border: solid 1px rgba(0, 0, 0, 0.1); */
@@ -64,7 +76,7 @@ img {
 
 
 .header-text {
-  font-size: 1.5em;
+  font-size: 1.3rem;
   color: white;
   padding: 5px;
   margin: 8px;
@@ -163,6 +175,17 @@ p {
   flex-flow: column, wrap;
 }
 
+/* Property List Descriptions */
+
+.description {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.description li{
+  list-style: disc;
+}
+
 /******** FOOTER BASE STYLES ********/
 
 ul {
@@ -177,18 +200,36 @@ ul {
   width: 100%;
 }
 
+.footer-style a{
+  color: white;
+  font-style: normal;
+}
+
 ul.inner-footer {
   padding: 2px;
   margin: 2px;
 }
 
-/* .menu-items {
+/* FORM Styles */
+
+fieldset {
+  display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 100vh;
-  background-color: rgb(30, 195, 195);;
-} */
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}

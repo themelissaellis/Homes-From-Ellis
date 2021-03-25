@@ -5,29 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/flexbox-styles.css" rel="stylesheet">
+    <link href="../css/normalize.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
     <link href="../css/animate.css" rel="stylesheet">
-    <title>HFE: Tenant Services</title>
+    <title>Homes From Ellis</title>
 </head>
 
 <body>
     <!-- HEADER CONTENT -->
-    <wrapper class="content">
-        <header class="main-header">
-            <img id="logo" src="../SVG/HFE_NewestFinalLogo-3.svg" alt="Homes From Ellis Logo">
+<!-------------HEADER CONTENT ----------->
+<wrapper class="content">
+    <header class="main-header">
+        <img id="logo" src="../SVG/HFE_NewestFinalLogo-3.svg" alt="Homes From Ellis Logo">
             <h1 class="header-text">Homes From Ellis</h1>
-                <svg class="menu-btnBurger navBtn" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
-                    <g>
-                        <line class="line" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="30" x2="80" y2="30"/>
-                    </g>
-                    <g>
-                        <line class="line" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="49" x2="80" y2="49"/>
-                    </g>
-                    <g>
-                        <line class="line" fill="none" stroke="#6D6E70" stroke-width="6" stroke-miterlimit="10" x1="20" y1="68" x2="80" y2="68"/>
-                    </g>
-                </svg>
-        </header>
+                <div class="menu-btn">
+                    <div class="menu-btn_burger"></div>
+                </div>
+    </header>
  
  <!-- ------NAVAGATION------  -->
             <ul class="nav" id="nav-bar">
@@ -40,16 +34,20 @@
     <main>      
         <container class="rentals-col">
         
-            <h2>Tenant Services, Policies, and Procedures</h2>
-                <img src="" alt="">
-                    <h3>Current Vacancies:</h3>
-                        <ul>
-                            <li><a class="house-links" href="../html/hull-house.html">Hull Street</a></li>
-                        </ul>
+            <form action="tenant-services.html" method="post">
 
-        </container>   
-        
-    </main>  
+                    <h1>Tenants</h1>
+                        <fieldset>
+                            <legend>Login</legend>
+                                <label for="name">Username:</label>
+                                    <input type="text" id="username" name="user_name">
+                                        <label for="password">Password:</label>
+                                            <input type="password" id="password" name="user_password">
+                        </fieldset> 
+                                                <button type="submit">Login</button>
+            </form> 
+            
+        </main>  
 </wrapper>
 
 <!-- -----FOOTER ----- -->
