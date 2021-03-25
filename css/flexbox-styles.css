@@ -86,6 +86,55 @@ ul.inner-footer {
 
 /******** MEDIA QUERIES ********/
 
-/* @media (min-width: 769px) {
+/* TABLET VIEW */
 
-} */
+@media (min-width: 769px) {
+    header.main-header {
+        height: 150px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    #logo {
+        width: 100px;
+        order: 2;
+    }
+    .header-text {
+        font-size: 3em;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    div.menu-btn {
+        display: none;
+    }
+    #nav-bar.open {
+        position: relative;
+        width: 769px;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    #nav-bar {
+        position: absolute;
+        width: 769px;
+        top: 0;
+        right: 0;
+        background: none;
+        border: none;
+        z-index: 1000;
+        display: flex;
+    }
+    .nav li a {
+        padding: 1em;
+        margin: auto;
+        color: #fff;
+    }
+    #nav-bar.open {
+        top: 70px;
+        margin: 25px 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px #103f57;
+      }
+
+}
+
+/* DESKTOP VIEW */
