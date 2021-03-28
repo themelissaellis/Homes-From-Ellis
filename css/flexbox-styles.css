@@ -88,7 +88,8 @@ ul.inner-footer {
 
 /* TABLET VIEW */
 
-@media (min-width: 769px) {
+@media (min-width: 760px) {
+    /* Header Adjustments for Tablet View */
     header.main-header {
         height: 150px;
         flex-direction: row;
@@ -99,19 +100,21 @@ ul.inner-footer {
         order: 2;
     }
     .header-text {
-        font-size: 3em;
+        font-size: 3rem;
         margin-top: 50px;
-        margin-left: 10px;
+        margin-left: 0;
     }
     div.menu-btn {
         display: none;
     }
     #nav-bar.open {
         position: relative;
-        width: 769px;
+        width: 760px;
         margin: 0;
         border-radius: 0;
         box-shadow: none;
+        transform: none;
+        transition: none;
       }
     #nav-bar {
         position: absolute;
@@ -122,18 +125,27 @@ ul.inner-footer {
         border: none;
         z-index: 1000;
         display: flex;
+        transform: none;
+        transition: none;
     }
     .nav li a {
+        font-size: inherit;
         padding: 1em;
         margin: auto;
         color: #fff;
     }
-    #nav-bar.open {
-        top: 70px;
-        margin: 25px 10px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 20px #103f57;
-      }
+
+    /* Properties Page */
+ .properties {
+     display: flex;
+     flex-direction: center;
+     align-items: flex-end;
+
+ }
+ .description {
+     height: 100px;
+     flex-wrap: wrap;
+ }
 
 }
 

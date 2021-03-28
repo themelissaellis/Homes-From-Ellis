@@ -13,3 +13,17 @@ menuBTN.addEventListener('click', () => {
         menuOpen = false;
     }
 });
+
+
+// Close menu from anywhere on page 
+
+function closeNav(e) {
+    let isClickInside = menuBTN.contains(e.target);
+
+    if (!isClickInside && menuBTN.querySelector('#nav-bar.open')) {
+        menuBTN.querySelector('#nav-bar.open').classList.remove('nav-bar.open')
+    }
+
+}
+
+document.addEventListener('click', closeNav, false);

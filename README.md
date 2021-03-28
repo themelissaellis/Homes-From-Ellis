@@ -14,3 +14,4 @@ SVG Animations are not supported in IE10 and up.
 * A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal styles, or is opened and closed by clicking the “hamburger” icon: Hamburger Menu is styled with CSS (not finished with this yet!)
 
 
+Web site: https://homes-from-ellis.netlify.app/
