@@ -4,15 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -45,19 +37,19 @@ h3 {
   color: #103f57;
 }
 
+a { 
+  color: teal;
+  font-style: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 a:hover {
   color: teal;
 }
 
 .house-links {
   padding: 10px 15px;
-}
-
-a { 
-  color: teal;
-  font-style: normal;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 img {
@@ -72,10 +64,14 @@ img {
     color: white;
 }
 
-  /* when photo is selected - we want to enlarge it... border is a test! */
-  /* img::selection {
-    border: 2px solid blue;
-  } */
+.gif {
+  width: auto;
+  height: auto;
+}
+
+.giphy-embed {
+  margin: auto;
+}
 
 /******** HEADER BASE STYLES ********/
 

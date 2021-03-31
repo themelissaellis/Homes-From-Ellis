@@ -48,6 +48,10 @@ img
     margin: 8px;
 }
 
+.gif {
+    display: flex;
+}
+
 /****** FLEX ITEMS ******/
 
 
@@ -91,6 +95,7 @@ ul.inner-footer {
 @media (min-width: 760px) {
     /* Header Adjustments for Tablet View */
     header.main-header {
+        width: 100vw;
         height: 150px;
         flex-direction: row;
         justify-content: space-around;
@@ -135,18 +140,67 @@ ul.inner-footer {
         color: #fff;
     }
 
+    /* Home Page Layout */
+
+    .main-content {
+        display: flex;
+        justify-self: center;
+        margin: 10px;
+    }
+
+    .primary-content {
+        width: 45%;
+        order: 2;
+    }
+
+    .tertiary-content {
+        order: 3;
+    }
+
+    .secondary-content,
+    .tertiary-content {
+        width: auto;
+    }
+
     /* Properties Page */
- .properties {
+    .properties {
      display: flex;
      flex-direction: center;
      align-items: flex-end;
-
- }
- .description {
+    }
+   .policies li {
+        text-decoration: wavy;
+    }
+    .description {
      height: 100px;
      flex-wrap: wrap;
- }
+    }
+    
+   
 
 }
 
 /* DESKTOP VIEW */
+
+@media (min-width: 1024px)  {
+
+    .home {
+        display: flex;
+        flex-direction: column;
+    }
+    .primary-content {
+        order: 1;
+        font-size: 1.5em;
+        margin: auto;
+    }
+    svg#Layer_1 {
+        order: 2;
+    }
+    .secondary-content {
+       order: 3;
+       font-size: 1.5em;
+       margin: auto;
+       
+    }
+
+}
