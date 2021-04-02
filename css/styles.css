@@ -113,16 +113,6 @@ img {
   background-color: #103f57;
 }
 
-/* .tagline {
-  display: none;
-} */
-
-/* .fake-header::after,
-.fake-header::before {
-  content: ' ';
-} */
-
-
 /******** BODY BASE STYLES ********/
 
 /* NAV MENU STYLE */
@@ -182,10 +172,16 @@ p {
 .description {
   padding: 1rem;
   margin: 1rem;
+  height: 100%;
 }
 
 .description li{
   list-style: disc;
+}
+
+.hero-images {
+  width: 95%;
+  margin: auto;
 }
 
 /******** FOOTER BASE STYLES ********/

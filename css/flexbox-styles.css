@@ -45,7 +45,7 @@ img
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin: 8px;
+    margin: 20px 8px;
 }
 
 .gif {
@@ -167,6 +167,12 @@ ul.inner-footer {
         width: auto;
     }
 
+    /* Gallery adjustments */
+
+    /* .gallery {
+        margin-top: 150px;
+    } */
+
     /* Properties Page */
     .properties {
      display: flex;
@@ -176,13 +182,6 @@ ul.inner-footer {
    .policies li {
         text-decoration: wavy;
     }
-    .description {
-     height: 100px;
-     flex-wrap: wrap;
-    }
-    
-   
-
 }
 
 /* DESKTOP VIEW */
