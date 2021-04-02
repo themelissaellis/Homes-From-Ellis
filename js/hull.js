@@ -1,4 +1,3 @@
-
 const hull = [
     {
         description: 'Dining and living space',

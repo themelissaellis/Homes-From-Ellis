@@ -157,8 +157,13 @@ ul.inner-footer {
         order: 3;
     }
 
+    .special content: {
+        order: 4;
+    }
+
     .secondary-content,
-    .tertiary-content {
+    .tertiary-content,
+    .special-content {
         width: auto;
     }
 
@@ -196,11 +201,19 @@ ul.inner-footer {
     svg#Layer_1 {
         order: 2;
     }
-    .secondary-content {
-       order: 3;
+    .secondary-content,
+    .special-content {
        font-size: 1.5em;
-       margin: auto;
-       
+       margin: .75em 2em;
+    }
+    .secondary-content {
+        order: 3;
+    }
+    .giph-contnet {
+        order: 4;
     }
 
+    .special-content {
+        order: 5;
+    }
 }
